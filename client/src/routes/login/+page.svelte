@@ -11,13 +11,13 @@ import logo from "../../../static/login/login-bg.png"
 		<div class="bg-stone-100 w-1/2 h-full min-h-96 rounded-l-2xl flex justify-center items-center">
 			<img src="/login/login-bg.png" class="w-full h-full rounded-2xl" alt="Login bg" />
 		</div>
-		<div class="bg-[#1c4f4a] w-1/2 h-full min-h-96 rounded-r-2xl flex flex-col justify-center items-center p-8 space-y-5">
+		<form class="bg-[#1c4f4a] w-1/2 h-full min-h-96 rounded-r-2xl flex flex-col justify-center items-center p-8 space-y-5">
 			<h3 class="text-4xl text-black text-white self-start">Login</h3>
 			<input type="email" name="email" id="email" placeholder="Email address" class="w-full p-2 rounded-lg border-1 border-solid border-stone-100 outline-none" />
 <input type="password" name="password" id="password" placeholder="Password" class="w-full p-2 rounded-lg border-1 border-solid border-stone-100 outline-none" />
 			<button type="submit" class="bg-[#fc6719] hover:bg-white hover:text-[#fc6719] text-extrabold text-base p-2 rounded-lg w-full">Log in</button>
 			<a href="#" class="text-[#fc6719] text-xs">Forgot your password?</a>
-		</div>
+		</form>
 	</div>
 </div>
 
